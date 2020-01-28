@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppShortcut</string>
+    <string name="firstShort">First Activity</string>
+    <string name="firstLong">1. First Activity</string>
+    <string name="secondShort">Second Activity</string>
+    <string name="secondLong">2. Second Activity</string>
+    <string name="shortcutDisabledMessage">App ShortCut Not Available!!</string>
+</resources>

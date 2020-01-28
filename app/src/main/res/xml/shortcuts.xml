@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="firstActivity"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/firstShort"
+        android:shortcutLongLabel="@string/firstLong"
+        android:shortcutDisabledMessage="@string/shortcutDisabledMessage">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.wnet.appshortcut"
+            android:targetClass="com.wnet.appshortcut.FirstActivity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="secondActivity"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/secondShort"
+        android:shortcutLongLabel="@string/secondLong"
+        android:shortcutDisabledMessage="@string/shortcutDisabledMessage">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.wnet.appshortcut"
+            android:targetClass="com.wnet.appshortcut.SecondActivity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <!-- Specify more shortcuts here. -->
+</shortcuts>
